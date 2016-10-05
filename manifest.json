@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name": "Fic List Change Detector",
+	"version": "1.0",
+	"description": "Detects changes in the Pastebin HS fic recommendation list.",
+	"permissions": [
+		"storage",
+		"tabs"
+	],
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	},
+	"icons": {
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
+	"browser_action": {
+		"default_icon": "icon16.png"
+	}
+}

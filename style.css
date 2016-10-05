@@ -1,0 +1,39 @@
+body {
+	font-size:14px;
+	background-color:#1a1c1d;
+	color:#e4e4e4;
+	font-family:"Lucida Sans Unicode","Lucida Sans","Arial",sans-serif;
+}
+a {
+	color:#6a7fc4;
+	font-weight:bold;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+a:active {
+	color:#b73443;
+}
+.main-heading {
+	font-size:2.25em;
+	padding:22px 0;
+	margin:0;
+}
+.heading {
+	padding:15px 0;
+	margin:0;
+}
+.indent {
+	border-left:3px solid #008282;
+	padding:8px 0 8px 13px;
+}
+.list {
+	list-style-type:none;
+}
+.raw {
+	font-size:0.9em;
+}
+.no-margin {
+	margin:0;
+}
